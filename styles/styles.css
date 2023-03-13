@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    margin-top: 2%;
+    border-bottom: 1px solid grey;
+}
+header > figure{
+    width: min-content;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+header > figure > img{
+    width: 40px;
+}
+nav{
+    width: 60%;
+    font-size: 2rem;
+    color: darkgrey;
+}
+nav > ul{
+    display: flex;
+    list-style-type: none;
+    margin: 12px;
+}
+nav > ul > li{
+    margin-right: 80px;
+}
+nav > ul > li:first-child{
+    margin-right: 80px;
+}
+header > span{
+    width: 100%;
+}
+span.user > section{
+    margin-left: 40%;
+    display: flex;
+    margin-left: 70%;
+}
+img.user {
+    width: 40px;
+    margin: 8px;
+}
+section.user > figure:last-child> img{
+    height: 40px;
+    border-radius: 100%;
+}
+main{
+    display: grid;
+    width: 70%;
+    height: 70%;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    margin-top: 5%;
+}
+section.photos > figure{
+    display: flex;
+}
+section.photos > figure > img{
+    width: 500px;
+    border-radius: 16px;
+    height: 500px;
+    margin: 24px auto;
+
+}
+ul.photos{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    list-style: none;
+}
+ul.photos > li{
+    margin: 0 auto;
+}
+ul.photos > li > img{
+    width: 92px;
+    height: 92px;
+    border-radius: 16px;
+}
+ul.photos > li:first-child > img{
+    border: 2px solid orangered;
+    filter: brightness(3);
+}
+.input-number-group {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .input-number-group input[type=number]::-webkit-inner-spin-button,
+  .input-number-group input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+            appearance: none;
+  }
+  
+  .input-number-group .input-group-button {
+    line-height: calc(80px/2 - 5px);
+  }
+  
+  .input-number-group .input-number {
+    width: 80px;
+    vertical-align: top;
+    text-align: center;
+    outline: none;
+    display: block;
+    margin: 0;
+  }
+  
+  .input-number-group .input-number,
+  .input-number-group .input-number-decrement,
+  .input-number-group .input-number-increment {
+    border: 1px solid lightblue;
+    background: lightblue;
+    height: 40px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    border-radius: 0;
+  }
+  
+  .input-number-group .input-number-decrement,
+  .input-number-group .input-number-increment {
+    display: inline-block;
+    width: 40px;
+    background: lightblue;
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  
+  .input-number-group .input-number-decrement {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  
+  .input-number-group .input-number-increment {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  span.formulary{
+    display: flex;
+  }
+  section.description{
+    font-size: 2rem;
+  }
+  section.description > h1{
+    font-size: 1.5rem;
+    color: orangered;
+    margin-bottom: 16px;
+  }
+  section.description > h2{
+    font-size: 5rem;
+    margin-bottom: 16px;
+  }
+  section.description > p{
+    margin-bottom: 16px;
+  }
+
+  span.formulary > input[type='button']{
+    margin-left: 24px;
+    width: 25%;
+    background-color: orangered;
+    color: white;
+    border-radius: 8px;
+    border: none;
+  }
+  p.description{
+    color: grey;
+  }
+  p.price{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  #discount{
+    font-size: 1.5rem;
+    color: grey;
+    text-decoration:line-through;
+  }
+  span.price{
+    display: flex;
+  }
+  span.price > .percentage{
+    padding: 4px;
+    margin-left: 16px;
+    background-color: lightsalmon;
+    color: orangered;
+    font-weight: 600;
+    border-radius: 4px;
+  }
